@@ -1,0 +1,28 @@
+{
+
+    "name": "oksausage",
+    "version": "0.0.1",
+    "description": "Company Informational Website",
+    "license": "MIT",
+    "readmeFilename": "README.md",
+    "author": {
+        "name": "Lou Grossi",
+        "email": "lou@oksausage.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/okSausage/okSausage.git"
+    },
+    "bugs": {
+        "url": "https://github.com/okSausage/okSausage/issues"
+    },
+    "tags": [
+        "sausage",
+        "wiener",
+        "salumist",
+        "typescript"
+    ],
+    "devDependencies": {
+        "typescript": "^4.7.4"
+    }
+}
