@@ -24,5 +24,9 @@
     ],
     "devDependencies": {
         "typescript": "^4.7.4"
+    },
+    "scripts": {
+        "bundle": "copyfiles -u 1 src/**/*.html src/**/*.css src/**/*.png dist/",
+        "build": "npm run bundle && npx tsc"
     }
 }

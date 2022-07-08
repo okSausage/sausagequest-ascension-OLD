@@ -1,0 +1,17 @@
+/*
+    Entrypoint for CSS styling (index.html)
+*/
+
+html,
+body {
+  /* background: rgb(223, 250, 255); */
+  background: linear-gradient(
+    10deg,
+    rgba(223, 250, 255, 1) 0%,
+    rgba(188, 204, 208, 1) 65%,
+    rgba(79, 166, 182, 1) 100%
+  );
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
