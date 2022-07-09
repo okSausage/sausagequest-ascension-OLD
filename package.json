@@ -1,5 +1,4 @@
 {
-
     "name": "oksausage",
     "version": "0.0.1",
     "description": "Company Informational Website",
@@ -23,9 +22,11 @@
         "typescript"
     ],
     "devDependencies": {
+        "@types/jquery": "^3.5.14",
         "typescript": "^4.7.4"
     },
     "scripts": {
+        "clean": "rm -rf dist/*",
         "bundle": "copyfiles -u 1 src/**/*.html src/**/*.css src/**/*.png dist/",
         "build": "npm run bundle && npx tsc"
     }
