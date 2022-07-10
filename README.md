@@ -1,9 +1,9 @@
 Sau'Sage Quest
 Ascension of the Wiener Wizard
 
-This originally started as a project to mess around with TypeScript.  The initial thought
-was to create a website that was completely unnavigable.  Essentially you'd have to find the
-links through a series of events.  There was not going to be any documentation on how to do that.
+This originally started as a project to mess around with TypeScript. The initial thought
+was to create a website that was completely unnavigable. Essentially you'd have to find the
+links through a series of events. There was not going to be any documentation on how to do that.
 
 This morphed into a game, and now it's going to be Sau'Sage Quest.
 
@@ -14,3 +14,5 @@ It's really just starting out, so I don't know what will happen - but it is a fu
 I'll keep it going until I get too busy or too bored.
 
 Thanks for looking...
+
+[GitHub Community Discussion](https://github.com/orgs/okSausage/teams/contributors/discussions)
