@@ -15,4 +15,31 @@ I'll keep it going until I get too busy or too bored.
 
 Thanks for looking...
 
+[Sau'Sage Quest](https://okSausage.com)
 [GitHub Community Discussion](https://github.com/orgs/okSausage/teams/contributors/discussions)
+
+##How to get it running:
+
+<ol>
+<li>Install a basic web server, I use the python http.server for development work:</li>
+    pip install -g simple-http-server
+
+<li>Then download the git repository.</li>
+
+<li>Change into the root directory for the project.</li>
+
+<li>Install the npm packages</li>
+    npm install
+
+<li>Build the project:</li>
+    npm run build
+
+<li>Change to the directory  for the distribution:</li>
+    cd ./dist
+
+<li>Run the python server</li>
+    python -m http.server
+
+<li>Visit the app in your web browser</li>
+    localhost:8000
+</ol>

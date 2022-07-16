@@ -1,0 +1,74 @@
+/* Slight bounce/spring effect with squish */
+@keyframes spring {
+  0% {
+    transform: scale(1) translateY(0);
+  }
+  10% {
+    transform: scale(1.2, 0.6);
+  }
+  30% {
+    transform: scale(0.8, 1.1) translateY(-50px);
+  }
+  50% {
+    transform: scale(1) translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.one-squishy-springy {
+  animation: spring 2s;
+  animation-timing-function: ease;
+  animation-iteration-count: 1;
+}
+.infinite-squishy-springy {
+  animation: spring 2s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+.fall-springOnce {
+  animation: slideInDown 5s, spring 2s;
+  animation-delay: 0s, 3s;
+}
+/* Object slides down vertically and stops */
+@-webkit-keyframes slideInDown {
+  0% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes slideInDown {
+  0% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes slideInDown {
+  0% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+.slideInDown {
+  -webkit-animation-name: slideInDown;
+  animation-name: slideInDown;
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}

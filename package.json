@@ -27,7 +27,7 @@
     },
     "scripts": {
         "clean": "rm -rf dist/*",
-        "bundle": "copyfiles -u 1 src/**/*.html src/**/*.css src/**/*.png dist/",
+        "bundle": "copyfiles -u 1 src/**/*.html src/**/*.css src/**/*.png src/assets/fonts/*.ttf src/js/*.jquery dist/",
         "build": "npm run clean && npm run bundle && npx tsc"
     },
     "dependencies": {

@@ -27,7 +27,7 @@ function displaySausage() {
 
 export function summonSausage1() {
   hoppingSausage();
-  mouseDirection();
+  //mouseDirection();
   displaySausage();
 }
 
