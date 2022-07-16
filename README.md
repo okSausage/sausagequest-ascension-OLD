@@ -22,24 +22,24 @@ Thanks for looking...
 
 <ol>
 <li>Install a basic web server, I use the python http.server for development work:</li>
-    `pip install -g simple-http-server`
+`pip install -g simple-http-server`
 
 <li>Then download the git repository.</li>
 
 <li>Change into the root directory for the project.</li>
 
 <li>Install the npm packages</li>
-        `npm install`
+`npm install`
 
 <li>Build the project:</li>
-        `npm run build`
+`npm run build`
 
 <li>Change to the directory  for the distribution:</li>
-        `cd ./dist`
+`cd ./dist`
 
 <li>Run the python server</li>
-        `python -m http.server`
+`python -m http.server`
 
 <li>Visit the app in your web browser</li>
-        `localhost:8000`
+`localhost:8000`
 </ol>
